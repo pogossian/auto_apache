@@ -2,7 +2,7 @@ FROM ubuntu:latest
 LABEL maintainer="Gor Pogossian gor@poghosyan.am"
 LABEL description="An image for autobuilding test"
 
-ENV HELLO_MSG Hello From Automated Builded Docker/Apache
+ENV HELLO_MSG Hello From Automated Builded Docker
 
 RUN apt-get update && apt-get install apache2 -y && \
     echo ${HELLO_MSG} > /var/www/html/index.html && \
