@@ -7,7 +7,8 @@ git clone https://github.com/pogossian/auto_apache.git
 2. Go to directory and build
 
 ```
-docker build -t apache_php
+cd auto_apache
+docker build -t apache_php .
 ```
 
 3. Run container
